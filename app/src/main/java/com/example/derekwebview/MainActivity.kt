@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
                 
                 <script>
                   var config = {
-                      access_key: "jdjfkjfafs",
+                      access_key: "INCORRECT-TOKEN-WILL-STILL-DISPLAY-A-NONLOADING-SCREEN",
                       host_name: "api-stg.measureone.com",
                       datarequest_id: "dr_1faOM8Q4efEWIjzdE2SBM2kLq4O",
                       branding: {
