@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
                   var config = {
                       access_key: "INCORRECT-TOKEN-WILL-STILL-DISPLAY-A-NONLOADING-SCREEN",
                       host_name: "api-stg.measureone.com",
-                      datarequest_id: "dr_1faOM8Q4efEWIjzdE2SBM2kLq4O",
+                      datarequest_id: "dr_2nWWtV60J17DaZ06kqk1S8M4cuP",
                       branding: {
                           styles: {
                               primary_dark: "#186793",
@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity() {
             </html>
         """.trimIndent()
 
-        webView.loadDataWithBaseURL(null, htmlContent, "text/html", "utf-8", null)
+        webView.loadDataWithBaseURL("https://api-stg.measureone.com", htmlContent, "text/html", "utf-8", null)
 
         // Load a webpage
         //webView.loadUrl("https://www.google.com")
